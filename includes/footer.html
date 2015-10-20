@@ -1,0 +1,65 @@
+
+</span>
+</section><!-- /contentArea -->
+</section><!-- /freeContentLeft -->
+<!-- Content End  -->
+<div class="clearfix"></div>
+
+<article role="bottomArea">
+<section role="footerNav"><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu1" CacheDisabled="True"><div></div></span><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu2" CacheDisabled="True"><div></div></span><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu3" CacheDisabled="True"><div></div></span><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu4" CacheDisabled="True"><div></div></span><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu5" CacheDisabled="True"><div></div></span><span id="_a3df037dd5a5dd_incFooter_-inc-Constructa/footer.ascx_ctrlFooterMenu6" CacheDisabled="True"><div></div></span></section><span id="_41f869ed88f5ce_incFooter_-inc-Constructa/footer.ascx_Nexumcontent1" class="copyright">© Constructa 2015 - <a href="http://www.constructa.com/de/impressum.html" target="_blank">Impressum</a></span></article><!-- /bottomArea --><script type="text/javascript" src="/templates/constructa-resources/scripts/main.js" charset="UTF-8"></script><script>
+var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+(function (d, t) {
+var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g, s)
+}(document, 'script'));
+</script></section></section><footer role="footer"></footer><!-- /footer --></div></form>
+
+<script>
+"use strict";
+var host = document.location.hostname;
+var fixlinks = function(argument) {
+	/*
+	 * get local CSS
+	 */
+	$("link").each(function() {
+		var hrefNew = $(this).attr("href").replace("http://www.neff.de/Files/Neff/De/de/AdditionalFiles/", argument);
+
+		$(this).attr("href", hrefNew);
+	});
+
+	/*
+	 * override baseURL for navigational links
+	 */
+	$("#topnav a, .sidebarmenue a, .footerlink, .cssMainContent a:not(.various):not(.download):not([href*='http'])").each(function() {
+		var href = $(this).attr("href");
+		var hrefNew = argument + href.replace(".html", ".php");
+
+		$(this).attr("href", hrefNew);
+
+		//console.log(hrefNen);
+	});
+};
+
+
+
+
+
+
+$( document ).ready(function() {
+	/*
+	 * set custom URLs local or Server testing
+	 */
+	if (host == "localhost") {
+		fixlinks("http://localhost/neff_kuechenplanung/");
+	}
+	if (host == "kunden.derhaeuptling.com") {
+        fixlinks("http://kunden.derhaeuptling.com/b15-media/neff_kuechenplanung/");
+    }
+    if (host == "special.neff.de") {
+        fixlinks("http://special.neff.de/ABLAGE/Planen/");
+    }
+
+});
+</script>
+</body></html>
