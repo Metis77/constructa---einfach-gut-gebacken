@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+/*
+ * layout
+ */
+section[role="content"]  section[role="freeContentLeft"].wideFreeContentLeft {
+	width: 100%;
+}
+footer {
+	position: relative;
+}
+.footer-logo {
+	position: absolute;
+	right: 80px;
+	top: -15px;
+}
+
+
+.color_black {
+	color: black !important;
+}
+
+
+
+/*
+ * generic
+ */
+p {	
+	margin-bottom: 26px;
+}
+.smaller {
+	font-size: .8em !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+
+section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h1 { font-size: 21px;}
+
+[role="freeContentRight"] h3,
+[role="freeContentRight"] h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+
+	font-weight: normal !important;
+	text-transform: uppercase;
+	color: #003a61 !important;
+}
+
+[role="freeContentRight"] h3 {
+	font-size: 21px !important;
+}
+
+[role="freeContentRight"] h4 {
+	font-size: 18px !important;
+}
+
+/*
+ * Atom
+ */

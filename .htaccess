@@ -1,0 +1,19 @@
+
+
+
+RewriteEngine on
+RewriteRule ^(.*).html$ $1.php
+
+# ----------------------------------------------------------------------
+# AUTH
+# ----------------------------------------------------------------------
+# AuthType Basic
+# AuthName "Bereich passwortgeschuetzt"
+# AuthUserFile /var/www/vhosts/derhaeuptling.com/site_kunden/b15-media/neff_kuechenplanung/.htpasswd
+# Require valid-user
+
+
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
