@@ -16,28 +16,30 @@ s.parentNode.insertBefore(g, s)
 </script></section></section><footer role="footer"></footer><!-- /footer --></div></form>
 
 <script>
-"use strict";
+
 var host = document.location.hostname;
 var fixlinks = function(argument) {
 	/*
 	 * get local CSS
 	 */
-	$("link").each(function() {
-		var hrefNew = $(this).attr("href").replace("http://www.neff.de/Files/Neff/De/de/AdditionalFiles/", argument);
+	// $("link").each(function() {
+	// 	var hrefNew = $(this).attr("href").replace("http://www.neff.de/Files/Neff/De/de/AdditionalFiles/", argument);
 
-		$(this).attr("href", hrefNew);
-	});
+	// 	$(this).attr("href", hrefNew);
+	// });
 
 	/*
 	 * override baseURL for navigational links
 	 */
-	$("#topnav a, .sidebarmenue a, .footerlink, .cssMainContent a:not(.various):not(.download):not([href*='http'])").each(function() {
+	// $("a:not(.various):not(.download):not([href*='http'])").each(function() {
+	$('[role="stageImage"] a').each(function() {
 		var href = $(this).attr("href");
+		console.log(href);
 		var hrefNew = argument + href.replace(".html", ".php");
 
 		$(this).attr("href", hrefNew);
 
-		//console.log(hrefNen);
+		console.log(hrefNew);
 	});
 };
 
@@ -50,8 +52,8 @@ $( document ).ready(function() {
 	/*
 	 * set custom URLs local or Server testing
 	 */
-	if (host == "localhost") {
-		fixlinks("http://localhost/neff_kuechenplanung/");
+	if (host == "constructa-rezepte.local") {
+		fixlinks("http://constructa-rezepte.local");
 	}
 	if (host == "kunden.derhaeuptling.com") {
         fixlinks("http://kunden.derhaeuptling.com/b15-media/neff_kuechenplanung/");
