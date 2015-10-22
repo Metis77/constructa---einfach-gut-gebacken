@@ -1,3 +1,11 @@
+<?php
+include '../includes/head.html';
+// include 'gut-gebacken-Rezepte_stage.html';
+?>
+
+
+
+
 
 <link rel="stylesheet" type="text/css"  media="all" href="/Files/Constructa/De/de/AdditionaFiles/css/einfachgutgebacken.css" />
 <script>
@@ -6,9 +14,21 @@ $( document ).ready(function() {
 })
 </script>
 
-
 <p>
 <a href="/de/gut-gebacken-Rezepte-Gewinnspiel.html">
 	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1.jpg" height="435" width="1000" />
 </a>
 </p>
+
+
+
+
+<?php
+include '../includes/middle.html';
+include 'gut-gebacken-Rezepte.html';
+
+include '../includes/footer.html';
+
+
+
+?>

@@ -21,9 +21,54 @@ footer {
 }
 
 
-.color_black {
-	color: black !important;
+/*
+ * grid
+ */
+.row {
+  margin-right: -.9375rem;
+  margin-left: -.9375rem;
 }
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7,.col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+
+  float: left;
+  box-sizing: border-box;
+}
+.col-1 { width: 8.333333%; }
+.col-2 { width: 16.666667%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.333333%; }
+.col-5 { width: 41.666667%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.333333%; }
+.col-8 { width: 66.666667%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.333333%; }
+.col-11 { width: 91.666667%; }
+.col-12 { width: 100%; }
+
+
+section[role="freeContentRight"] .row {
+  margin-right: -.4rem;
+  margin-left: -.4rem;
+}
+section[role="freeContentRight"] .col-1, section[role="freeContentRight"] .col-2, section[role="freeContentRight"] .col-3, section[role="freeContentRight"] .col-4, section[role="freeContentRight"] .col-5, section[role="freeContentRight"] .col-6, section[role="freeContentRight"] .col-7, section[role="freeContentRight"] .col-8, section[role="freeContentRight"] .col-9, section[role="freeContentRight"] .col-10, section[role="freeContentRight"] .col-11, section[role="freeContentRight"] .col-12 {
+  padding-right: .4rem;
+  padding-left: .4rem;
+}
+
 
 
 
@@ -36,20 +81,52 @@ p {
 .smaller {
 	font-size: .8em !important;
 }
-.mb20 {
-	margin-bottom: 20px !important;
+.more {
+    background-image: url("http://www.constructa.com/templates/constructa-resources/images/assets/arrow_left_more.png");
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    padding-left: 15px;
 }
 
-section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h1 { font-size: 21px;}
+img.fLeft {
+	padding-right: 1em;
+}
+img.fRight {
+	padding-left: 1em;
+}
+
+.hr-darker {
+	border-color: #9a9a9a;
+}
+
+.mb0  { margin-bottom: 0 !important; }
+.mb10 { margin-bottom: 10px !important; }
+.mb20 { margin-bottom: 20px !important; }
+.mb40 { margin-bottom: 40px !important; }
+.color_black { color: black !important; }
+
+
+
+section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h1 { 
+	font-size: 21px;
+	text-transform: uppercase;
+}
+section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h2 {
+	margin-top: 0;
+}
+
 
 [role="freeContentRight"] h3,
-[role="freeContentRight"] h4 {
+[role="freeContentRight"] h4,
+[role="freeContentRight"] h5 {
 	margin-top: 0;
-	margin-bottom: 20px;
-
-	font-weight: normal !important;
-	text-transform: uppercase;
+	margin-bottom: 16px;	
 	color: #003a61 !important;
+}
+[role="freeContentRight"] h3,
+[role="freeContentRight"] h4 {
+	font-weight: normal;
+	text-transform: uppercase;
 }
 
 [role="freeContentRight"] h3 {
@@ -59,6 +136,11 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 [role="freeContentRight"] h4 {
 	font-size: 18px !important;
 }
+[role="freeContentRight"] h5 {
+	font-size: 13px !important;
+}
+
+
 
 /*
  * Atom
