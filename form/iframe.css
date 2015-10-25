@@ -1,0 +1,184 @@
+/*
+ * resets
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+	
+	font-family: arial;
+    font-size: 12px;
+    color: #333;
+}
+
+h1, h2 {
+	margin-bottom: 10px;
+	color: #003a61;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 21px;
+}
+h2 {
+	font-size: 18px;
+}
+
+
+.gewinnspiel {
+	padding: 24px;
+    background-color: #e6eff5;
+}
+
+
+/*
+ * preset
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+/*
+ * grid
+ */
+.row {
+  margin-right: -.9375rem;
+  margin-left: -.9375rem;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7,.col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+
+  float: left;
+  box-sizing: border-box;
+}
+.col-1 { width: 8.333333%; }
+.col-2 { width: 16.666667%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.333333%; }
+.col-5 { width: 41.666667%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.333333%; }
+.col-8 { width: 66.666667%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.333333%; }
+.col-11 { width: 91.666667%; }
+.col-12 { width: 100%; }
+
+
+/*
+ * form
+ */
+label, input,textarea {
+	width: 100%;
+
+	display: block;
+	margin-bottom: 30px;
+
+}
+
+label {
+	margin-bottom: 10px;
+}
+label.checkbox {
+	position: relative;
+    padding-left: 2.25rem;
+    cursor: pointer;
+	
+}
+label.checkbox input[type=checkbox] {
+	position: absolute;
+    margin-top: .25rem;
+    margin-left: -2.25rem;
+    box-shadow: none;
+}
+
+
+
+
+input,
+textarea {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+
+    box-shadow: inset 1px 1px 3px 0px rgba(51,51,51,0.4);
+}
+input.form-control-file {
+	width: auto;
+	padding: 0;
+
+	background: none;
+	box-shadow: none;
+
+
+}
+.labelname {
+	text-transform: uppercase;
+}
+
+.form_file_preview_outer {
+	background-color: #e0e0ed;
+}
+.form_file_preview {
+	opacity: 0;
+	width: 100%;
+	min-width: 100%;
+
+	height: auto;
+	min-height: 135px; 
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	
+
+	transition: opacity .4s ease-in-out;
+}
+.form_file_preview.-js-gotimage {
+	opacity: 1;
+	transition: opacity .4s ease-in-out;
+}
+
+/*
+ * Atom
+ */
+.mb0  { display: block; margin-bottom: 0 !important; }
+.mb10 { display: block; margin-bottom: 10px !important; }
+.mb20 { display: block; margin-bottom: 20px !important; }
+.mb30 { display: block; margin-bottom: 30px !important; }
+.mb40 { display: block; margin-bottom: 40px !important; }
+
+.ml {
+	margin-left: 27px;
+}
+
+.more {
+    background-image: url("http://www.constructa.com/templates/constructa-resources/images/assets/arrow_left_more.png");
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    padding-left: 15px;
+}
+
+

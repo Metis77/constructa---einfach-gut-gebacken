@@ -23,10 +23,15 @@ var fixlinks = function(argument) {
 	 * get local CSS
 	 */
 	$("link").each(function() {
-		var hrefNew = $(this).attr("href").replace("/Files/Constructa/De/de/AdditionaFiles/css/einfachgutgebacken.css", argument + '/css/einfachgutgebacken.css');
+		var hrefNew = $(this).attr("href").replace("http://special.constructa-einbaugeraete.de/rezepte/einfachgutgebacken.css", argument + '/css/einfachgutgebacken.css');
 
 		$(this).attr("href", hrefNew);
 	});
+
+
+	/* get local iFrame */
+	$("#iframe-gewinnspiel").attr("src", 'http://constructa-rezepte.local/form/formular.html');
+
 
 	/*
 	 * override baseURL for navigational links
@@ -35,7 +40,7 @@ var fixlinks = function(argument) {
 	$('[role="stageImage"] a, .wideFreeContentLeft a:not([href*="http"])').each(function() {
 		var href = $(this).attr("href");
 		// var hrefNew = argument + href.replace(".html", ".php");
-		var hrefNew = argument + href;
+		var hrefNew = argument + '/de/' + href;
 
 		$(this).attr("href", hrefNew);
 

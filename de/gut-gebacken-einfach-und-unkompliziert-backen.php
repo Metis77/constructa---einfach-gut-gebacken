@@ -7,7 +7,7 @@ include '../includes/head.html';
 
 
 
-<link rel="stylesheet" type="text/css"  media="all" href="/Files/Constructa/De/de/AdditionaFiles/css/einfachgutgebacken.css?1" />
+<link rel="stylesheet" type="text/css"  media="all" href="http://special.constructa-einbaugeraete.de/rezepte/einfachgutgebacken.css" />
 <script>
 $( document ).ready(function() {
 	$('footer').append('<div class="footer-logo"><img src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/logo_einfach-gut-gebacken.png?1" height="126" width="115" alt="logo einfach gut gebacken"></div>')
@@ -23,7 +23,7 @@ $( document ).ready(function() {
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-Liste-einfach-und-unkompliziert-backen.html';
+include 'gut-gebacken-einfach-und-unkompliziert-backen.html';
 
 include '../includes/footer.html';
 

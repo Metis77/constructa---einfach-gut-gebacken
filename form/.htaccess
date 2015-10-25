@@ -2,7 +2,7 @@
 
 
 RewriteEngine on
-RewriteRule ^(.*).html$ $1.php
+RewriteRule ^(.*).html$ $1.html
 
 # ----------------------------------------------------------------------
 # AUTH

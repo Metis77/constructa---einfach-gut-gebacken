@@ -15,7 +15,7 @@ $( document ).ready(function() {
 </script>
 
 <p>
-<a href="/de/gut-gebacken-Rezepte-Gewinnspiel.html">
+<a href="gut-gebacken-Rezepte-Gewinnspiel.html">
 	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1.jpg" height="435" width="1000" />
 </a>
 </p>
