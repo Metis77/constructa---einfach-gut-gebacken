@@ -28,7 +28,7 @@ h2 {
 	padding: 24px;
     background-color: #e6eff5;
 }
-
+a { color: #003a61; }
 
 /*
  * preset
@@ -104,6 +104,9 @@ label.checkbox {
 }
 label.checkbox input[type=checkbox] {
 	position: absolute;
+
+	width: auto;
+	
     margin-top: .25rem;
     margin-left: -2.25rem;
     box-shadow: none;
@@ -125,15 +128,52 @@ textarea {
 
     box-shadow: inset 1px 1px 3px 0px rgba(51,51,51,0.4);
 }
-input.form-control-file {
-	width: auto;
-	padding: 0;
-
-	background: none;
-	box-shadow: none;
 
 
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
 }
+.fileUpload > span {
+	
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+
+.btn {
+	display: inline-block;
+	width: 100%;
+	padding: 12px;
+	padding-left: 30px;
+	border: 0;
+
+	line-height: 16px;
+	font-size: 16px;
+	text-align: left;
+	text-transform: uppercase;
+
+
+	color: white;
+	background-color: #003a61;
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_pfeil.svg);
+	background-position: 14px 13px;
+	background-repeat: no-repeat;
+}
+
 .labelname {
 	text-transform: uppercase;
 }
@@ -160,6 +200,11 @@ input.form-control-file {
 	opacity: 1;
 	transition: opacity .4s ease-in-out;
 }
+
+
+
+
+
 
 /*
  * Atom

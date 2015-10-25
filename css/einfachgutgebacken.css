@@ -79,9 +79,8 @@ section[role="freeContentRight"] .col-1, section[role="freeContentRight"] .col-2
 /*
  * generic
  */
-p {	
-	margin-bottom: 26px;
-}
+p {	margin-bottom: 26px; }
+a { color: #003a61; }
 img.fLeft {
 	padding-right: 1em;
 }

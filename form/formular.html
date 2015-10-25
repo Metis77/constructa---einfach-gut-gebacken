@@ -22,9 +22,9 @@
     
     <body>
 
-        <section role="formContainer" class="contactForm">
+        <section role="formContainer" class="contactForm" >
             
-            <form class="gewinnspiel" action="">
+            <form class="gewinnspiel" method="post" action="inc/sendform.php" novalidate>
                 <label for="form_file">
                     <h2>Foto</h2>
                     Laden Sie ein Foto mit maximal 2 MB im Format .jpg oder .png hoch. <br> 
@@ -36,7 +36,13 @@
                             <div class="form_file_preview"/></div>
                         </div>
                     </div>
-                    <div class="col-5"><input type="file" class="form-control-file" id="form_file"></div>
+                    <div class="col-5">
+                        <div class="fileUpload">
+                            <span class="btn">DATEI AUSWÄHLEN</span>
+                            <input type="file" class="upload" id="form_file">
+                        </div>
+                        <!-- <input type="file" class="custom-file-input" id="form_file"> -->
+                    </div>
                 </div>
                 
                 
@@ -118,8 +124,13 @@
                     <input type="checkbox" id="form_newsletter" required>
                     <b>Ich möchte den Newsletter „Backen und vieles mehr“ von Constructa erhalten </b>
                 </label>
-
-                <button type="submit">ABSENDEN</button>
+                <br>
+                <div class="row">
+                    <div class="col-5">
+                        <button class="btn" type="submit">ABSENDEN</button>
+                    </div>
+                </div>
+                
 
             </form>
         </section>

@@ -1,4 +1,8 @@
 
+/*
+ * get file an show in preview
+ * @input file
+ */
 function readURL(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
@@ -29,7 +33,6 @@ $(document).ready(function(){
 
 
 	// teilnahmebedingungen
-
 	$('.close').click(function(){
 		$('#bedingungen').hide();
 		return false;

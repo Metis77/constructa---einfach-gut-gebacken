@@ -1,5 +1,5 @@
 <?php
-include '../includes/head.html';
+include '../../../includes/head.html';
 // include 'gut-gebacken-Rezepte_stage.html';
 ?>
 
@@ -15,19 +15,17 @@ $( document ).ready(function() {
 </script>
 
 <p>
-<a href="/de/gut-gebacken-Rezepte-Gewinnspiel.html">
-	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1.jpg" height="435" width="1000" />
-</a>
+<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_lachs_tarte_stage.jpg" height="435" width="1000" />
 </p>
 
 
 
 
 <?php
-include '../includes/middle.html';
-include 'gut-gebacken-Rezepte.html';
+include '../../../includes/middle.html';
+include 'lachs-tarte.html';
 
-include '../includes/footer.html';
+include '../../../includes/footer.html';
 
 
 
