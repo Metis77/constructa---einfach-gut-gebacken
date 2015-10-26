@@ -79,7 +79,7 @@ section[role="freeContentRight"] .col-1, section[role="freeContentRight"] .col-2
 /*
  * generic
  */
-p {	margin-bottom: 26px; }
+p {	margin-bottom: 16px; }
 a { color: #003a61; }
 img.fLeft {
 	padding-right: 1em;
@@ -123,13 +123,14 @@ ol>li>h2 {
 /*
  * change presets
  */
-
 section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h1 { 
 	font-size: 21px;
 	text-transform: uppercase;
 }
 section[role="content"] section[role="freeContentLeft"] section[role="contentArea"] h2 {
 	margin-top: 0;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 
@@ -161,10 +162,10 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 /*
  * Atom
  */
-.mb0  { margin-bottom: 0 !important; }
-.mb10 { margin-bottom: 10px !important; }
-.mb20 { margin-bottom: 20px !important; }
-.mb40 { margin-bottom: 40px !important; }
+.mb0  { display: block; margin-bottom: 0 !important; }
+.mb10 { display: block; margin-bottom: 10px !important; }
+.mb20 { display: block; margin-bottom: 20px !important; }
+.mb40 { display: block; margin-bottom: 40px !important; }
 
 .color_black { color: black !important; }
 .hr-darker { border-color: #9a9a9a; }
@@ -177,8 +178,12 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
     background-position: 0 1px;
     padding-left: 15px;
 }
-
-
+.bold {
+	font-weight: bold;
+}
+.dib {
+	display: inline-block;
+}
 
 .icons > div {
 	display: inline-block;
@@ -221,4 +226,29 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 .icon-30 {
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_30.svg);
 	background-position: 0 -5px;
+}
+
+
+
+
+
+
+
+
+.recipe {
+	margin-bottom: 20px;
+}
+.recipe li {
+	padding: 5px 0;
+
+	font-size: 14px;
+	color: #003a61;
+
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/bg_hr_punkte.png);
+	background-repeat: repeat-x;
+	background-position: 0 100%;
+}
+.recipe .col {
+	display: inline-block;
+	width: 60px;
 }
