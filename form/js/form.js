@@ -20,12 +20,15 @@ function readURL(input) {
     }
 }
 
-       
 
 
 
 $(document).ready(function(){
 
+
+    /*
+     * fileupload
+     */
 	$('#form_file').change(function(){
         readURL(this);
     });
@@ -33,13 +36,18 @@ $(document).ready(function(){
 
 
 	// teilnahmebedingungen
-	$('.close').click(function(){
-		$('#bedingungen').hide();
-		return false;
-	});
-	$('.tb').click(function(){
-		$('#bedingungen').show();
-		return false;
-	});
+	// $('.close').click(function(){
+	// 	$('#bedingungen').hide();
+	// 	return false;
+	// });
+	// $('.tb').click(function(){
+	// 	$('#bedingungen').show();
+	// 	return false;
+	// });
+
+    /*
+     * validation
+     */
+    $("form").validate();
 
 });

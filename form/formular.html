@@ -16,7 +16,9 @@
         
 
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="form.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/localization/messages_de.js"></script>
+        <script src="js/form.js"></script>
 
     </head>
     
@@ -32,14 +34,14 @@
                 </label>
                 <div class="row mb30">
                     <div class="col-5">
-                        <div class="form_file_preview_outer">
-                            <div class="form_file_preview"/></div>
-                        </div>
+                        <label class="form_file_preview_outer" for="form_file">
+                            <div class="form_file_preview"></div>
+                        </label>
                     </div>
                     <div class="col-5">
                         <div class="fileUpload">
                             <span class="btn">DATEI AUSWÄHLEN</span>
-                            <input type="file" class="upload" id="form_file">
+                            <input type="file" class="upload" id="form_file" required>
                         </div>
                         <!-- <input type="file" class="custom-file-input" id="form_file"> -->
                     </div>
@@ -64,15 +66,15 @@
                 <div class="row">
                     <div class="col-4">
                         <label for="form_zutaten_anzahl">Anzahl der Portionen</label>
-                        <input type="text" id="form_zutaten_anzahl" required>
+                        <input type="text" name="form_zutaten_anzahl" id="form_zutaten_anzahl" required>
                     </div>
                     <div class="col-4">
                         <label for="form_zutaten_zubereitungszeit">Zubereitungszeit</label>
-                        <input type="text" id="form_zutaten_zubereitungszeit" required>
+                        <input type="text" name="form_zutaten_zubereitungszeit" id="form_zutaten_zubereitungszeit" required>
                     </div>
                     <div class="col-4">
                         <label for="form_zutaten_backzeit">Backzeit</label>
-                        <input type="text" id="form_zutaten_backzeit" required>
+                        <input type="text" name="form_zutaten_backzeit" id="form_zutaten_backzeit" required>
                     </div>
                 </div>
                 
@@ -81,7 +83,7 @@
                     <h2>Zubereitungsschritte</h2>
                     Bitte schreiben Sie hier alle Zubereitungsschitte für Ihr Rezept auf.
                 </label>
-                <textarea name="form_zutatenliste" id="form_zubereitungsschritte" cols="30" rows="10" required></textarea>
+                <textarea name="form_zubereitungsschritte" id="form_zubereitungsschritte" cols="30" rows="10" required></textarea>
 
                 
 
@@ -99,7 +101,7 @@
                 <div class="row">
                     <div class="col-6">
                         <label for="form_email">E-Mail</label>
-                        <input type="text" name="email" id="form_email" required>
+                        <input type="email" name="email" id="form_email" required>
                     </div>
                     <div class="col-6">
                         <label for="form_phone">Telefon</label>
@@ -108,12 +110,12 @@
                 </div>
 
                 <label class="checkbox">
-                    <input type="checkbox" id="form_agb" required>
-                    Ich akzeptiere die <a class="" href="teilnahmebedigungen.html" target="_blank">Teilnahmebedintgungen</a> am Gewinnspiel. 
+                    <input type="checkbox" name="form_agb" id="form_agb" required>
+                    Ich akzeptiere die <a class="" href="teilnahmebedingungen.html" target="_blank">Teilnahmebedingungen</a> am Gewinnspiel. 
                 </label>
 
                 <div class="mb10 ml">
-                    <a class="" href="">Teilnahmebedingungen herunterladen</a>
+                    <a class="" href="http://www.constructa.com/Files/Constructa/De/de/Downloads/Constructa_Gewinnspiel_Einfach-tierisch_Teilnahmebedingungen_2015.pdf" target="_blank">Teilnahmebedingungen herunterladen</a>
                 </div>
 
                 <p class="mb10 ml"><b>Die wichtigsten Bedingungen in Kürze:</b> <br>
@@ -121,7 +123,7 @@
                 Der Teilnehmer erklärt, dass gegebenenfalls beteiligte Dritte, insbesondere im Zusammenhang mit erstellten Fotoaufnahmen, der vorstehend beschriebenen Nutzung zugestimmt haben.</p>
                 
                 <label class="checkbox">
-                    <input type="checkbox" id="form_newsletter" required>
+                    <input type="checkbox" name="form_newsletter" id="form_newsletter">
                     <b>Ich möchte den Newsletter „Backen und vieles mehr“ von Constructa erhalten </b>
                 </label>
                 <br>
