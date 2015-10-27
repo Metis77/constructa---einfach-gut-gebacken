@@ -24,6 +24,20 @@ footer {
 	height: 1600px;
 	border: 0;
 }
+.loading-spinner-container {
+	position: relative;
+}
+.loading-spinner {
+	position: absolute;
+	height: 300px;
+	width: 100%;
+
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/ajax-loader2.gif);
+	background-position: 50% 50px ;
+	background-repeat: no-repeat;
+	
+	z-index: -1;
+}
 
 /*
  * grid
@@ -251,4 +265,8 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 .recipe .col {
 	display: inline-block;
 	width: 60px;
+}
+
+.center {
+	text-align: center;
 }
