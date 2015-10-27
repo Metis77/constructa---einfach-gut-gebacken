@@ -26,6 +26,7 @@ footer {
 }
 .loading-spinner-container {
 	position: relative;
+	z-index: -1;
 }
 .loading-spinner {
 	position: absolute;

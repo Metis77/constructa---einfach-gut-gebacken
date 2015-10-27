@@ -23,7 +23,7 @@ var fixlinks = function(argument) {
 	 * get local CSS
 	 */
 	$("link").each(function() {
-		var hrefNew = $(this).attr("href").replace("http://special.constructa-einbaugeraete.de/rezepte/einfachgutgebacken.css", argument + '/css/einfachgutgebacken.css');
+		var hrefNew = $(this).attr("href").replace("http://special.constructa-einbaugeraete.de/rezepte/einfachgutgebacken.css", argument + '/form/einfachgutgebacken.css');
 
 		$(this).attr("href", hrefNew);
 	});
