@@ -174,6 +174,11 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 }
 
 
+
+
+
+
+
 /*
  * Atom
  */
@@ -200,6 +205,12 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	display: inline-block;
 }
 
+
+.center {
+	text-align: center;
+}
+
+
 .icons > div {
 	display: inline-block;
 	margin: 10px 6px 10px 0;
@@ -215,6 +226,7 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 
 	text-align: center;
 }
+
 .icons .inner {
 	padding-top: 50px;
 }
@@ -268,6 +280,28 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	width: 60px;
 }
 
-.center {
-	text-align: center;
+
+.tipp {
+	width: 100%;
+	height: 320px;
+
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/bg_tipp.jpg);
+	background-repeat: no-repeat;
 }
+.tipp h2 {
+	width: 63%;
+
+	padding-top: 20px;
+	padding-left: 20px;
+
+	font-size: 19px !important;
+}
+
+
+
+
+
+
+
+
+
