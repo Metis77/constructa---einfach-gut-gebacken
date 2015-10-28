@@ -4,7 +4,6 @@
 
 
 
-
 /*
  * layout
  */
@@ -132,6 +131,10 @@ ol>li>h2 {
 	font-size: 18px !important;
 	color: #003a61;
 }
+.reset_more {
+	padding: 0 !important;
+	background: none !important;
+}
 
 
 
@@ -185,6 +188,7 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 .mb0  { display: block; margin-bottom: 0 !important; }
 .mb10 { display: block; margin-bottom: 10px !important; }
 .mb20 { display: block; margin-bottom: 20px !important; }
+.mb30 { display: block; margin-bottom: 30px !important; }
 .mb40 { display: block; margin-bottom: 40px !important; }
 
 .color_black { color: black !important; }
@@ -295,6 +299,7 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	padding-left: 20px;
 
 	font-size: 19px !important;
+	text-transform: uppercase;
 }
 
 
