@@ -1,3 +1,6 @@
+<?
+include_once('lib/phpInclude.php');
+?>
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -24,9 +27,18 @@
     
     <body>
 
+
         <section role="formContainer" class="contactForm" >
-            
-            <form class="gewinnspiel" method="post" action="inc/sendform.php" novalidate>
+            <h1>BACKREZEPT &amp; TEILNEHMERDATEN HOCHLADEN</h1>
+            <br>
+<? if (isset($fehler)) {
+echo $fehler;
+}
+?>          
+
+
+            <form class="gewinnspiel" method="post" action="insert.php" novalidate enctype="multipart/form-data">
+            <input type="hidden" name="from" value="<?=$from?>">
                 <label for="form_file">
                     <h2>Foto</h2>
                     Laden Sie ein Foto mit maximal 2 MB im Format .jpg oder .png hoch. <br> 
@@ -41,7 +53,7 @@
                     <div class="col-5">
                         <div class="fileUpload">
                             <span class="btn">DATEI AUSWÄHLEN</span>
-                            <input type="file" class="upload" id="form_file" required>
+                            <input type="file" class="upload" id="form_file" name="myfile" required>
                         </div>
                         <!-- <input type="file" class="custom-file-input" id="form_file"> -->
                     </div>
@@ -110,7 +122,7 @@
                 </div>
 
                 <label class="checkbox">
-                    <input type="checkbox" name="form_agb" id="form_agb" required>
+                    <input type="checkbox" name="form_agb" id="form_agb" required value="1">
                     Ich akzeptiere die <a class="" href="teilnahmebedingungen.html" target="_blank">Teilnahmebedingungen</a> am Gewinnspiel. 
                 </label>
 
@@ -123,7 +135,7 @@
                 Der Teilnehmer erklärt, dass gegebenenfalls beteiligte Dritte, insbesondere im Zusammenhang mit erstellten Fotoaufnahmen, der vorstehend beschriebenen Nutzung zugestimmt haben.</p>
                 
                 <label class="checkbox">
-                    <input type="checkbox" name="form_newsletter" id="form_newsletter">
+                    <input type="checkbox" name="form_newsletter" id="form_newsletter" value="1">
                     <b>Ich möchte den Newsletter „Backen und vieles mehr“ von Constructa erhalten </b>
                 </label>
                 <br>

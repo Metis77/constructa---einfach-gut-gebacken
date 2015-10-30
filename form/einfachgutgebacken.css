@@ -261,7 +261,16 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 
 
 
+.fill {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
+	width: 100%;
+	height: 100%;
+}
 
 
 
@@ -286,13 +295,16 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 
 
 .tipp {
+	position: relative;
+	display: block;
 	width: 100%;
 	height: 320px;
 
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/bg_tipp.jpg);
 	background-repeat: no-repeat;
 }
-.tipp h2 {
+.tipp h2,
+.tipp span {
 	width: 63%;
 
 	padding-top: 20px;
@@ -302,7 +314,19 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	text-transform: uppercase;
 }
 
-
+.tipp-landingpage {
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/bg_tipp_2.png?1);
+}
+.tipp-landingpage h2 {
+	padding-top: 10px;
+}
+.tipp-landingpage span {
+	display: block;
+	padding-top: 30px;
+	color: #003a61 !important;
+	font-size: 14px !important;
+	font-weight: normal;
+}
 
 
 
