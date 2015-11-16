@@ -20,7 +20,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-rezept-lachs-tarte.html';
+include 'gut-gebacken-rezept-lachstarte.html';
 
 include '../includes/footer.html';
 

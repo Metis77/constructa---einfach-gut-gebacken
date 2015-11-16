@@ -246,6 +246,10 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_clock.svg);
 	background-position: 0 -5px;
 }
+.icon-1 {
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_1.svg);
+	background-position: 0 -5px;
+}
 .icon-12 {
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_12.svg);
 	background-position: 0 -5px;
@@ -256,6 +260,10 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 }
 .icon-30 {
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_30.svg);
+	background-position: 0 -5px;
+}
+.icon-60 {
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_60.svg);
 	background-position: 0 -5px;
 }
 
