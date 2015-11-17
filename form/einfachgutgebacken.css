@@ -247,7 +247,15 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 	background-position: 0 -5px;
 }
 .icon-1 {
-	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_1.svg);
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_1.svg?1);
+	background-position: 0 -5px;
+}
+.icon-4 {
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_4.svg);
+	background-position: 0 -5px;
+}
+.icon-10 {
+	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_10.svg);
 	background-position: 0 -5px;
 }
 .icon-12 {

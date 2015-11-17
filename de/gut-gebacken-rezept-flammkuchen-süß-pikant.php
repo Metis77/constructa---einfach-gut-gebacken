@@ -20,7 +20,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-rezept-flammkuchen-suess-pikant.html';
+include 'gut-gebacken-rezept-flammkuchen-süß-pikant.html';
 
 include '../includes/footer.html';
 

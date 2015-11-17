@@ -19,7 +19,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-rezept-zitronen-thymian-haehnchen.html';
+include 'gut-gebacken-rezept-zitronen-thymian-hähnchen.html';
 
 include '../includes/footer.html';
 

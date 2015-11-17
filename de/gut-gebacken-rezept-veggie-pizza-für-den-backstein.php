@@ -19,7 +19,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-rezept-veggie-pizza-fuer-den-backstein.html';
+include 'gut-gebacken-rezept-veggie-pizza-für-den-backstein.html';
 
 include '../includes/footer.html';
 
