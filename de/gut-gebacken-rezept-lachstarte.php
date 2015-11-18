@@ -12,7 +12,7 @@ include '../includes/head.html';
 <script src="http://constructa-rezepte.local/form/js/einfachgutgebacken.js"></script>
 
 <p>
-<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_lachs_tarte_stage.jpg" height="435" width="1000" />
+<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_lachs_tarte_stage_v2.jpg" height="435" width="1000" />
 </p>
 
 
