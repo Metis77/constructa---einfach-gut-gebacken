@@ -25,17 +25,27 @@ function changebreadcrumb(argument) {
 		// Backen für den Kindergeburtstag
 
 		if ( 
-			bc.sel_active.is(':contains("Lachs Tarte")') ||
+			bc.sel_active.is(':contains("Lachstarte")') ||
 			bc.sel_active.is(':contains("Klassischer Käsekuchen")') ||
-			bc.sel_active.is(':contains("Apfeltarte")')
-			) {
+			bc.sel_active.is(':contains("Apfeltarte")') ||
+			bc.sel_active.is(':contains("Italienisches Weissbrot")') ||
+			bc.sel_active.is(':contains("Focaccia")') ||
+			bc.sel_active.is(':contains("Flammkuchen süß & pikant")')
+			
+		) {
 			category.cat = 'Einfach & unkompliziert backen';
 			category.url = bc.sectionUrl +'-einfach-und-unkompliziert-backen.html'
 
 
 		} else if (
 			bc.sel_active.is(':contains("Rüblikuchen mit Schneehaube (glutenfrei)")') ||
-			bc.sel_active.is(':contains("Gemüse-Pfannkuchen mit Frischkäse")') ) {
+			bc.sel_active.is(':contains("Gemüse-Pfannkuchen mit Frischkäse")') ||
+			bc.sel_active.is(':contains("Veggie Pizza für den Backstein")') ||
+			bc.sel_active.is(':contains("Zitronen-Thymian-Hähnchen")') ||
+			bc.sel_active.is(':contains("Blaubeermuffins")')
+
+
+		) {
 			category.cat = 'Gesund & lecker backen';
 			category.url = bc.sectionUrl +'-Gesund-lecker-backen.html'
 
@@ -43,7 +53,9 @@ function changebreadcrumb(argument) {
 		} else if (
 			bc.sel_active.is(':contains("Himbeerspitzbuben mit Schnee")') ||
 			bc.sel_active.is(':contains("Weihnachtsmuffins")') ||
-			bc.sel_active.is(':contains("Walnussecken")') 
+			bc.sel_active.is(':contains("Walnussecken")') ||
+			bc.sel_active.is(':contains("Zimtsterne")') ||
+			bc.sel_active.is(':contains("Engelsaugen")') 
 		) {
 			category.cat = 'Weihnachtsbacken';
 			category.url = bc.sectionUrl +'-Weihnachtsbacken.html'
@@ -52,7 +64,10 @@ function changebreadcrumb(argument) {
 		} else if (
 			bc.sel_active.is(':contains("Happy Pizza")') ||
 			bc.sel_active.is(':contains("Pepe’s bunter Guglhupf")') ||
-			bc.sel_active.is(':contains("Blaue Monster Muffins")') 
+			bc.sel_active.is(':contains("Blaue Monster Muffins")') ||
+			bc.sel_active.is(':contains("Kinderpasta")') ||
+			bc.sel_active.is(':contains("Tier Cake Pops")') ||
+			bc.sel_active.is(':contains("Elefanten Kuchen")') 
 		) {
 			category.cat = 'Backen für den Kindergeburtstag';
 			category.url = bc.sectionUrl +'-Backen-für-den-Kindergeburtstag.html'
