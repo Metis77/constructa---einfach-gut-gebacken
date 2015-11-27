@@ -11,7 +11,7 @@ include '../includes/head.html';
 <script src="http://special.constructa-einbaugeraete.de/rezepte/js/einfachgutgebacken.js"></script>
 
 <p>
-<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_monstermuffin_stage.jpg" height="435" width="1000" />
+<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_monstermuffin_stage_v2.jpg?1" height="435" width="1000" />
 </p>
 
 

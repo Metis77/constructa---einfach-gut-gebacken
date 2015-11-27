@@ -93,7 +93,7 @@ echo $fehler;
 
                 <label for="form_zubereitungsschritte">
                     <h2>Zubereitungsschritte</h2>
-                    Bitte schreiben Sie hier alle Zubereitungsschitte für Ihr Rezept auf.
+                    Bitte schreiben Sie hier alle Zubereitungsschritte für Ihr Rezept auf.
                 </label>
                 <textarea name="form_zubereitungsschritte" id="form_zubereitungsschritte" cols="30" rows="10" required></textarea>
 

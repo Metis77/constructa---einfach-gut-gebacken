@@ -11,7 +11,7 @@ include '../includes/head.html';
 <script src="http://special.constructa-einbaugeraete.de/rezepte/js/einfachgutgebacken.js"></script>
 
 <p>
-<img src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_focaccia.jpg?2" height="435" width="1000" alt="focaccia"  />
+<img src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_focaccia_v2.jpg?2" height="435" width="1000" alt="focaccia"  />
 </p>
 
 
