@@ -131,7 +131,7 @@ echo $fehler;
                 </div>
 
                 <p class="mb10 ml"><b>Die wichtigsten Bedingungen in Kürze:</b> <br>
-                Mit der Teilnahme wird das inhaltliche, zeitliche und räumliche uneingeschränkte Recht eingeräumt, das eingesandte Rezept sowie ggf. zusätzlich erstellten Fotoaufnahmen umfassend durch die Constructa-Neff Vertriebs GmbH in allen Medienkanälen zu nutzen. <br>
+                Mit der Teilnahme wird das inhaltlich, zeitlich und räumlich uneingeschränkte Recht eingeräumt, das eingesandte Rezept sowie ggf. zusätzlich erstellte Fotoaufnahmen umfassend durch die Constructa-Neff Vertriebs GmbH in allen Medienkanälen zu nutzen. <br>
                 Der Teilnehmer erklärt, dass gegebenenfalls beteiligte Dritte, insbesondere im Zusammenhang mit erstellten Fotoaufnahmen, der vorstehend beschriebenen Nutzung zugestimmt haben.</p>
                 
                 <label class="checkbox">
