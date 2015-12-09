@@ -10,11 +10,8 @@ include '../includes/head.html';
 <link rel="stylesheet" type="text/css"  media="all" href="http://special.constructa-einbaugeraete.de/rezepte/einfachgutgebacken.css" />
 <script src="http://special.constructa-einbaugeraete.de/rezepte/js/einfachgutgebacken.js"></script>
 
-
 <p>
-<a href="gut-gebacken-Gewinnspiel.html">
-	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken-energy/stage_1.jpg" height="435" width="1000" />
-</a>
+<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/rezept_zitronen-thymian-haehnchen.jpg?1" height="435" width="1000" />
 </p>
 
 
@@ -22,7 +19,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'Einfach-backen-Rezepte.html';
+include 'gut-gebacken-rezept-zitronen-thymian-hähnchen.html';
 
 include '../includes/footer.html';
 

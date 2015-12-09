@@ -46,6 +46,7 @@ var fixlinks = function(argument) {
 
 		// console.log(hrefNew);
 	});
+
 };
 
 
@@ -64,6 +65,20 @@ $( document ).ready(function() {
         fixlinks("http://kunden.derhaeuptling.com/b15-media/neff_kuechenplanung/");
     }
 
+    /* 
+     * set body class, if is Energy
+     */
+    if ( window.location.pathname.includes("/de/einfach-backen") ) {
+    	$('body').addClass('product-category-energy-style');
+    }
+    
+
+
 });
 </script>
+
+
 </body></html>
+
+
+
