@@ -1,6 +1,6 @@
 <?php
 include '../includes/head.html';
-// include 'gut-gebacken-Rezepte_stage.html';
+// include 'einfach-backen-Rezepte_stage.html';
 ?>
 
 
@@ -19,7 +19,7 @@ include '../includes/head.html';
 
 <?php
 include '../includes/middle.html';
-include 'gut-gebacken-rezept-rüblikuchen-mit-schneehaube-(glutenfrei).html';
+include 'einfach-backen-rezept-rüblikuchen-mit-schneehaube-(glutenfrei).html';
 
 include '../includes/footer.html';
 
