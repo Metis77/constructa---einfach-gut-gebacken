@@ -351,6 +351,9 @@ section[role="content"] section[role="freeContentLeft"] section[role="contentAre
 /*
  * energy
  */
+.color_energy .btn {
+	background-color: #eb8a2d;
+}
 .color_energy .second .carousel-indicators .active {
 	background-color: #eb8a2d;
 }
@@ -361,3 +364,6 @@ section[role="content"] section[role="freeContentLeft"].color_energy section[rol
 .color_energy .more {
 	background-image: url("http://www.constructa.com/templates/constructa-resources/images/assets/arrow_right_orange.gif");
 }
+
+
+

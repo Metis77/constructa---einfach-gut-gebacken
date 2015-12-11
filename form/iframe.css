@@ -187,13 +187,10 @@ textarea.valid {
 	padding: 12px;
 	padding-left: 30px;
 	border: 0;
-
 	line-height: 16px;
 	font-size: 16px;
 	text-align: left;
 	text-transform: uppercase;
-
-
 	color: white;
 	background-color: #003a61;
 	background-image: url(http://www.constructa.com/Files/Constructa/De/de/Images/einfach-gut-gebacken/svg_pfeil.svg);
@@ -253,4 +250,9 @@ textarea.valid {
     padding-left: 15px;
 }
 
-
+/*
+ * energy
+ */
+.color_energy .btn {
+	background-color: #eb8a2d;
+}
