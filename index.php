@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=de/gut-gebacken.html" />
+<meta http-equiv="refresh" content="0; url=de/einfach-backen.html" />
