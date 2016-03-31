@@ -121,7 +121,7 @@ echo $fehler;
                 </label>
 
                 <div class="mb10 ml">
-                    <a class="" href="http://www.constructa.com/Files/Constructa/De/de/Downloads/Constructa_Gewinnspiel_Einfach-tierisch_Teilnahmebedingungen_2015.pdf" target="_blank">Teilnahmebedingungen herunterladen</a>
+                    <a class="" href="http://www.constructa.com/Files/Constructa/De/de/Downloads/Constructa_Gewinnspiel_Einfach-tierisch_Teilnahmebedingungen_2016.pdf" target="_blank">Teilnahmebedingungen herunterladen</a>
                 </div>
 
                 <p class="mb10 ml"><b>Die wichtigsten Bedingungen in Kürze:</b> <br>
