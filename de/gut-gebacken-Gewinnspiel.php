@@ -12,7 +12,7 @@ include '../includes/head.html';
 
 <p>
 <a href="gut-gebacken-Gewinnspiel.html">
-	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1_v2.jpg" height="435" width="1000" />
+	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1_v3.jpg" height="435" width="1000" />
 </a>
 </p>
 
