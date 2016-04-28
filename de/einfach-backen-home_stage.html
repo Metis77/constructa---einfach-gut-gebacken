@@ -1,4 +1,68 @@
-<style><!--
+<script>// <![CDATA[
+function nextSlide() {
+//  $("#myCarousel").carousel(1);
+  $('#p2').click();
+}
+$(window).load(function () {
+
+
+
+
+$('#myrocket').delay(500).animate({left: 220,top: 20,opacity: 1}, 500, "linear", function() {
+  $('#myexplosion').fadeIn(100);
+  setTimeout(nextSlide, 7000);
+  /*$('#mypic1').delay(3000).fadeOut('slow');
+  $('#mypic2').delay(3000).animate({bottom: 0,opacity:1}, 1000, "easeOutCubic", function() {
+  
+  });*/
+});
+//$('#myrocket').animate({}, {duration: 500});
+// left:260px;top:20px;
+
+
+
+});
+// ]]></script>
+<!-- TEST -->
+<div id="main" class="second">
+<div id="myCarousel" class="carousel slide carousel-two"><ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1" id="p2"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+<div class="item active">
+<div style="width: 1000px; height: 335px; position: relative;">
+<div style="position: absolute; z-index: 10; left: 105px; top: 143px; color: #023f7f; font-size: 15px; line-height: 18px;">
+<div style="font-size: 20px; line-height: 24px; margin-bottom: 10px; font-weight: bold;">EINFACH DAS BESTE <br />WEITERGEBEN.</div>
+Entdecken Sie die neue „Made <br /> in Germany“ Waschmaschine. <br /> Jetzt mit attraktiver Zugabe.</div>
+<div style="width: 231px; height: 38px; position: absolute; z-index: 10; left: 105px; top: 277px;"><a href="https://issuu.com/constructade/docs/ce_aktionsflyer_cwf14w40" target="_blank"><img src="/Files/Constructa/De/de/Images/einfach-das-beste/headeraktion_button_blau.gif" style="width: 231px; height: 38px;" /></a></div>
+<div id="mypic1" style="width: 539px; height: 322px; position: absolute; z-index: 20; right: 90px; bottom: 0px;"><img src="/Files/Constructa/De/de/Images/einfach-das-beste/headeraktion_img_2016.png" style="width: 539px; height: 322px;" /></div>
+<div id="mypic2" style="width: 539px; height: 322px; position: absolute; z-index: 30; right: 90px; bottom: -300px; opacity: 0;"><img src="/Files/Constructa/De/de/Images/einfach-das-beste/headeraktion_img_2016.png" style="width: 539px; height: 322px;" /></div>
+<div id="myrocket" style="width: 41px; height: 34px; position: absolute; z-index: 40; left: 180px; top: 50px; opacity: 0;"><img src="/Files/Constructa/De/de/Images/Energy/buehne/auftakt2016-rakete.png" style="width: 100%; height: 100%;" /></div>
+<div id="myexplosion" style="width: 95px; height: 80px; position: absolute; z-index: 35; left: 190px; top: 5px; display: none;"><img src="/Files/Constructa/De/de/Images/Energy/buehne/auftakt2016-feuerwerk.png" style="width: 100%; height: 100%;" /></div>
+<div class="bg" style="width: 1000px; height: 335px; position: absolute;"><img src="/Files/Constructa/De/de/Images/einfach-das-beste/headeraktion_buene_2016.jpg" style="width: 1000px; height: 335px;" /></div>
+</div>
+</div>
+<div class="item"><a href="einfach-backen.html"> <img src="/Files/Constructa/De/de/Images/einfach-gut-gebacken-energy/home_gewinnspiel_1_v3.jpg" /> </a></div>
+<div class="item"><img src="/Files/Constructa/De/de/Images/Energy/header/Header_geschirrspuelen.jpg" id="item1" height="335" width="1000" />
+<div class="carousel-caption"></div>
+</div>
+<div class="item"><img src="/Files/Constructa/De/de/Images/Energy/header/Header_kuehlen_gefrieren.jpg" />
+<div class="carousel-caption"><!--
+    <h4>Kühlen &amp; Gefrieren</h4>
+    <br /> Constructa – Und der Genuss beginnt bereits bei der Zubereitung.
+    --></div>
+</div>
+<!--
+<div class="item"><img src="Files/Constructa/De/de/Images/Energy/header/Header_kuehlen_gefrieren.jpg" />
+<div class="carousel-caption"></div>
+</div>
+--></div>
+<a class="grey-box-left" href="#myCarousel" data-slide="prev"></a> <a class="grey-box-right" href="#myCarousel" data-slide="next"></a></div>
+</div>
+<style type="text/css"><!--
 .linkIt {
     background-image: url("http://www.constructa.com/templates/constructa-resources/images/assets/arrow_right_gray.gif");
     background-position: 0 5px;
@@ -25,47 +89,6 @@
   background-image: url("http://www.constructa.com/Files/Constructa/De/de/Images/Energy/kaelteaktion/botton_yellow.gif"); 
   margin-top:15px;
 }
---></style>
-<!-- TEST -->
-<div id="main" class="second">
-<div id="myCarousel" class="carousel slide carousel-two">
-<ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-</ol>
-<div class="carousel-inner">
-    <div class="item active">
-          <img src="/Files/Constructa/De/de/Images/einfach-gut-gebacken-energy/home_gewinnspiel_1_v2.jpg" />
-    </div>
-    <div class="item">
-        <img src="/Files/Constructa/De/de/Images/Energy/header/Header_geschirrspuelen.jpg" id="item1" height="335" width="1000" />
-        <div class="carousel-caption"></div>
-        </div>
-    <div class="item"><img src="Files/Constructa/De/de/Images/energy/header/Header_waschen_trocknen.jpg" />
-        <div class="carousel-caption"><!--
-        <h4>Waschen &amp; Trocknen</h4>
-        <br /> Die perfekte Wäschepflege – Blitzsauber, sparsam und schonend.
-        --></div>
-    </div>
-    <div class="item"><img src="Files/Constructa/De/de/Images/Energy/header/Header_kochen_backen.jpg" />
-    <div class="carousel-caption"><!--
-    <h4>Kochen &amp; Backen</h4>
-    <br /> Constructa – Und der Genuss beginnt bereits bei der Zubereitung.
-    --></div>
-    </div>
-    <div class="item"><img src="Files/Constructa/De/de/Images/Energy/header/Header_kuehlen_gefrieren.jpg" />
-    <div class="carousel-caption"><!--
-    <h4>Kühlen &amp; Gefrieren</h4>
-    <br /> Viel Raum für lang anhaltende Frische und Tiefgefrorenes.
-    --></div>
-    </div>
-</div>
-<a class="grey-box-left" href="#myCarousel" data-slide="prev"></a> <a class="grey-box-right" href="#myCarousel" data-slide="next"></a></div>
-</div>
-<style type="text/css"><!--
 #main{ width:1000px;  height:335px;  margin:0 auto;  position:relative;  font-family: "Myriad Pro", Arial}
 #main img { width: 100%; height: 335px;}
 .carousel{ height:335px;  position:relative}
@@ -94,7 +117,7 @@
 .carousel-caption h4{ margin:0;  padding:0;  color:#00395f;  line-height:40px;  font-size:40px; }
 .carousel-caption p{ margin-bottom:0}
 .grey-box-left{ position:absolute;  background-image:url('/Files/Constructa/De/de/Images/gfx/slider-left.png');  background-repeat:no-repeat;  width:67px;  height:100%;  top:0;  left:0;  z-index:400}
-.grey-box-right{ position:absolute;  width:67px;  background-image:url('/Files/Constructa/De/de/Images/gfx/slider-right.png');  background-repeat:no-repeat;  height:100%;  top:0;  right:0;  z-index:400}
+.grey-box-right{ position:absolute;  width:67px;  background-image:url('/Files/Constructa/De/de/Images/gfx/slider-right.png?v=1');  background-repeat:no-repeat;  height:100%;  top:0;  right:0;  z-index:400}
 #main .carousel-background { height:333px;  width:1000px;  border-top:1px solid #E6EFF5;  border-bottom:1px solid #E6EFF5;  position:absolute;  top:0;  bottom:0;  z-index:100}
 .second #myCarousel {background-color:#e6eff5}
 .second .carousel{ height:335px;  position:relative}
@@ -123,7 +146,7 @@
 .second .carousel-caption h4{ margin:0;  padding:0;  color:#00395f;  line-height:40px;  font-size:40px; }
 .second .carousel-caption p{ margin-bottom:0}
 .second .grey-box-left{ position:absolute;  background-image:url('/Files/Constructa/De/de/Images/gfx/second-slider-left.png');  background-repeat:no-repeat;  width:67px;  height:100%;  top:0;  left:0;  z-index:400}
-.second .grey-box-right{ position:absolute;  width:67px;  background-image:url('/Files/Constructa/De/de/Images/gfx/second-slider-right.png');  background-repeat:no-repeat;  height:100%;  top:0;  right:0;  z-index:400}
+.second .grey-box-right{ position:absolute;  width:67px;  background-image:url('/Files/Constructa/De/de/Images/gfx/second-slider-right-1.png');  background-repeat:no-repeat;  height:100%;  top:0;  right:0;  z-index:400}
 #main.second .second-carousel-background-two { height:333px;  width:1000px;  border-top:1px solid #E6EFF5;  border-bottom:1px solid #E6EFF5;  position:absolute;  top:0;  bottom:0;  z-index:100}
 #main.second .second-carousel-background-one {width: 100%; position: absolute; z-index: 350;}
 --></style>
@@ -317,7 +340,7 @@
   }
 
   $.fn.carousel.defaults = {
-    interval: 5000
+    interval: 8000
   , pause: 'hover'
   }
 

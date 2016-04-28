@@ -12,7 +12,7 @@ include '../includes/head.html';
 
 
 <p>
-	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1_v4.jpg" height="435" width="1000" />
+	<img alt="Kochen &amp; Backen" src="/Files/Constructa/De/de/Images/einfach-gut-gebacken/stage_1_v5.jpg?1" height="435" width="1000" />
 
 </p>
 
